@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Description>A .NET wrapper for Microsoft's DirectXShaderCompiler.</Description>
+    <VersionPrefix>1.2.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <PackageTags>DirectX shader compiler dxc HLSL</PackageTags>
+    <PackageProjectUrl>https://github.com/tgjones/DotNetDxc</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Microsoft</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\deps\win-x86\*.*">
+      <PackagePath>runtimes/win-x86/native</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="..\..\deps\win-x64\*.*">
+      <PackagePath>runtimes/win-x64/native</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
