@@ -1,4 +1,4 @@
-# DotNetDxc
+# DotNetDxc [![Build status](https://ci.appveyor.com/api/projects/status/7v7u4i3wqkxi3wd3?svg=true)](https://ci.appveyor.com/project/tgjones/dotnetdxc)   [![NuGet](https://img.shields.io/nuget/v/DotNetDxc.svg)](https://www.nuget.org/packages/DotNetDxc/)
 
 This is a .NET wrapper for Microsoft's open-source [DirectXShaderCompiler](https://github.com/Microsoft/DirectXShaderCompiler). All code comes from the upstream DirectXShaderCompiler project, and this project only exists separately so that it can be easily published as a NuGet package.
 
