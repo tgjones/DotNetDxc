@@ -5,10 +5,9 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Description>A .NET wrapper for Microsoft's DirectXShaderCompiler.</Description>
     <VersionPrefix>1.2.0</VersionPrefix>
-    <VersionSuffix>alpha</VersionSuffix>
+    <VersionSuffix>alpha2</VersionSuffix>
     <PackageTags>DirectX shader compiler dxc HLSL</PackageTags>
     <PackageProjectUrl>https://github.com/tgjones/DotNetDxc</PackageProjectUrl>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Microsoft</Authors>
   </PropertyGroup>
 
